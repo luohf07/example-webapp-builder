@@ -52,7 +52,8 @@ pipeline {
             }
         }
 
- 
+	# all codes above has been tesed via an linux vm
+	    
         stage('Deploy to Production fixed server') {
             when {
                 branch 'release'
